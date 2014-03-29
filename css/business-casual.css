@@ -172,3 +172,31 @@ footer p {
         clear: both;
     }
 }
+
+
+
+/*** Buttons **/
+p.button a {
+ font-size: 14px;
+  font-family: "GibsonSemiBold";
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #826994;
+  border-radius: 25px;
+  border-bottom: none;
+  padding: 14px 26px 10px 26px;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+p.button a:hover, p.button a:active {
+  background: #705b80;
+  text-decoration: none;
+}
+
+/*** Selection ***/
+::selection {
+  color: #ffffff;
+  background: #07efb5;
+}
